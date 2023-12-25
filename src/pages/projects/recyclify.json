@@ -1,0 +1,11 @@
+{
+  "title": "Recyclify",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "languages": ["javascript", "sipython", "cplusplus"],
+  "frameworks": ["sireact", "django"],
+  "videoLink": "JM2Am9lLWeo",
+  "libraries": [""],
+  "tools": ["github", "expo", "firebase"],
+  "github": "https://github.com/shivstaa/garbage-collection-IOT",
+  "devpost": "https://devpost.com/software/magnify-trash"
+}

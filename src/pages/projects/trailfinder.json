@@ -1,0 +1,11 @@
+{
+  "title": "Trail Finder",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "images": ["", "", "", ""],
+  "languages": ["Swift"],
+  "frameworks": [],
+  "libraries": [""],
+  "tools": ["", ""],
+  "github": "https://github.com/shivstaa/Trail-Finder-IOS-App",
+  "devpost": ""
+}

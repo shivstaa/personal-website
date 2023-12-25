@@ -1,0 +1,10 @@
+{
+  "title": "Discord Scheduler Bot",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "videoLink": "C9IDWS9Azs4",
+  "languages": ["sipython", "postgresql"],
+  "frameworks": ["flask"],
+  "libraries": [""],
+  "tools": ["github", "googlecloud"],
+  "github": "https://github.com/shivstaa/discord-scheduler-bot"
+}

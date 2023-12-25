@@ -1,0 +1,18 @@
+{
+  "title": "EmergenSync",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "images": [
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/645/486/datas/gallery.jpg",
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/645/506/datas/gallery.jpg",
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/646/272/datas/gallery.jpg",
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/646/268/datas/gallery.jpg",
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/645/512/datas/gallery.jpg",
+    "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/646/269/datas/gallery.jpg"
+  ],
+  "languages": ["JavaScript"],
+  "frameworks": ["siReact", "sinode", "Tailwind"],
+  "libraries": [""],
+  "tools": ["github", "figma", "firebase"],
+  "github": "https://github.com/shivstaa/AutoRecruit",
+  "devpost": "https://devpost.com/software/autorecruit"
+}
