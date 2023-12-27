@@ -1,7 +1,7 @@
 //import { Inter } from "next/font/google";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-
+import { FaLinkedin } from "react-icons/fa";
 import Navbar from "./components/navbar";
 import { ProjectCard } from "./components/card";
 import autorecruit from "./projects/autorecruit.json";
@@ -11,6 +11,7 @@ import castfindr from "./projects/castfindr.json";
 import legaleaze from "./projects/legaleaze.json";
 import scheduler from "./projects/scheduler.json";
 import { FitScreen } from "@mui/icons-material";
+import SocialButtonsContainer from "react-social-media-buttons";
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -28,7 +29,6 @@ export default function Home() {
       <Navbar />
       {/*
        * TO-DO:
-       * adjust button properly
        * make the image size more reasonable height in large screens
        */}
       <section id="intro" className="">
@@ -37,19 +37,31 @@ export default function Home() {
             <h1 className="text-3xl md:leading-normal md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">
               Hi, My Name is Shiv 👋
             </h1>
-            {/* <h2 className="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-4">
-        Full Stack developer
-      </h2> */}
+            {/* <h2 className="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-4">Full Stack developer</h2> */}
             <p className="text-base md:text-lg lg:text-2xl 3xl:max-w-[75%] mt-4 lg:mt-6 lg:pr-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam,
             </p>
-            {/* <div className="flex justify-start pl-24 mt-6 lg:mt-8 "> */}
             <div className="flex justify-center mt-6 lg:mt-8 md:w-[75%] lg:w-[75%] 2xl:w-[75%] 3xl:w-[75%]">
-              <button className="bg-purple-700 text-white text-xl py-3 px-6 rounded hover:bg-purple-600 transition duration-300 tracking-wider w-full md:w-auto">
-                CONTACT ME
+              <SocialButtonsContainer
+                links={["https://www.linkedin.com/in/shiv-s-shah/"]}
+                buttonStyle={{
+                  width: "50px",
+                  height: "50px",
+                  margin: "0px 10px",
+                  backgroundColor: "#0a66c2",
+                  borderRadius: "15%",
+                }}
+                iconStyle={{ color: "#ffffff" }}
+                openNewTab={true}
+              />
+              <a href="mailto:shivshahla@gmail.com" target="_blank" rel="noopener noreferrer">
+              <button className="bg-purple-700 text-white text-xl font-semibold py-3 px-6 rounded hover:bg-purple-800 transition duration-300 tracking-widest w-full md:w-auto">
+                CONTACT
               </button>
+              </a>
+
             </div>
           </div>
           {/* <div className="flex justify-center items-center mt-4 md:mt-0"> */}
@@ -64,36 +76,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* <section id="intro">
-        <div className="bg-black text-white p-4 md:p-8 lg:p-12 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:items-start">
-          <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">
-              Hi, My Name is Shiv Shah! 👋
-            </h1>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-4">
-              Full Stack developer
-            </h2>
-            <p className="text-base md:text-lg lg:text-xl mt-4 lg:mt-6 lg:pr-4" style={{ maxWidth: 'inherit' }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            </p>
-            <div className="flex justify-center mt-6 lg:mt-8">
-              <button className="bg-purple-700 text-white text-xl py-3 px-6 rounded hover:bg-purple-600 transition duration-300 tracking-wider w-full md:w-auto">
-                CONTACT ME
-              </button>
-            </div>
-          </div>
-          <div className="flex justify-center items-center mt-4 md:mt-0">
-            <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" // Replace with your actual image path
-              width={500}
-              height={500}
-              layout="responsive"
-              alt="A placeholder for a podcast chat image" // Provide a meaningful description
-            />
-          </div>
-        </div>
-      </section> */}
 
       <section id="experience"></section>
 

@@ -160,6 +160,7 @@ export const ProjectCard = ({ data }) => {
                 <Link
                   href={data.github}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center hover:underline"
                 >
                   GitHub <GoLinkExternal className="ml-1" />
@@ -168,6 +169,7 @@ export const ProjectCard = ({ data }) => {
                   <Link
                     href={data.devpost}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center ml-4 hover:underline"
                   >
                     Devpost <GoLinkExternal className="ml-1" />
