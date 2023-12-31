@@ -126,6 +126,7 @@ export const ProjectCard = ({ data }) => {
                 >
                   Languages
                 </Typography>
+                {/* switch to tags (pills) */}
                 <IconComponent findIcons={data.languages} />
                 <Typography
                   variant="h5"
@@ -134,6 +135,7 @@ export const ProjectCard = ({ data }) => {
                 >
                   Frameworks
                 </Typography>
+                {/* switch to tags (pills) */}
                 <IconComponent
                   findIcons={data.frameworks}
                   sx={{ justifyContent: "center" }}

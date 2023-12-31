@@ -1,0 +1,28 @@
+[
+
+    {
+      "type": "work",
+      "date": "June 2023 - Aug. 2023",
+      "title": "Mastercard",
+      "subtitle": "Software Engineer Intern",
+      "location": "New York, NY",
+      "description": "Frontend developer on the Click to Pay Service team; worked in JavaScript (VueJS, TailwindCSS, TypeScript, & NextJS)"
+    },
+    {
+        "type": "work",
+        "date": "June 2022 - Aug. 2022",
+        "title": "Mastercard",
+        "subtitle": "Software Engineer Intern",
+        "location": "New York, NY",
+        "description": "DevOps developer on the Performance Automation team; worked in Java (Spring Boot) & Jenkins Cloud"
+      },
+    {
+      "type": "education",
+      "date": "Aug. 2020 - Present",
+      "title": "Arizona State University",
+      "subtitle": "Bachelor of Science in Computer Science",
+      "location": "Tempe, AZ",
+      "description": ""
+    }
+  ]
+  

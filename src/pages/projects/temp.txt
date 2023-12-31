@@ -1,0 +1,65 @@
+        {/* <div className="text-white p-4 md:p-8 lg:p-12 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:items-start">
+          <div>
+            <h1 className="text-3xl md:leading-normal md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6">
+              Hi, My Name is Shiv 👋
+            </h1>
+            {/* <h2 className="text-2xl md:text-3xl lg:text-4xl mb-3 lg:mb-4">Full Stack developer</h2> /}
+            <p className="text-base md:text-lg lg:text-2xl 3xl:max-w-[75%] mt-4 lg:mt-6 lg:pr-4">
+              I am a student at Arizona State University studying Computer
+              Science! Over the past 3 years I have completed software
+              engineering internships and projects focused on full stack
+              development. See my previous experiences below!
+            </p>
+            <div className="flex justify-center mt-6 lg:mt-8 md:w-[75%] lg:w-[75%] 2xl:w-[75%] 3xl:w-[75%]">
+              <a href="/about-me">
+                <button className="bg-purple-700 text-white text-xl font-semibold py-3 px-6 rounded hover:bg-purple-800 transition duration-300 tracking-widest w-full md:w-auto">
+                  ABOUT ME
+                </button>
+              </a>
+              <SocialButtonsContainer
+                links={["mailto:shivshahla@gmail.com"]}
+                buttonStyle={{
+                  width: "50px",
+                  height: "50px",
+                  margin: "0px 0px 0px 10px",
+                  backgroundColor: "#f06666",
+                  borderRadius: "15%",
+                }}
+                iconStyle={{ color: "#ffffff" }}
+                openNewTab={true}
+              />
+              <SocialButtonsContainer
+                links={["https://github.com/shivstaa"]}
+                buttonStyle={{
+                  margin: "0px 0px 0px 10px",
+                  backgroundColor: "#ffffff",
+                  borderRadius: "15%",
+                }}
+                iconStyle={{ color: "#000000" }}
+                openNewTab={true}
+              />
+              <SocialButtonsContainer
+                links={["https://www.linkedin.com/in/shiv-s-shah/"]}
+                buttonStyle={{
+                  width: "50px",
+                  height: "50px",
+                  margin: "0px 0px 0px 10px",
+                  backgroundColor: "#0a66c2",
+                  borderRadius: "15%",
+                }}
+                iconStyle={{ color: "#ffffff" }}
+                openNewTab={true}
+              />
+            </div>
+          </div>
+           <div className="flex justify-center items-center mt-4 md:mt-0">
+          <div className="flex justify-center items-center mt-4 md:mt-0 w-full">
+            <Image
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" // Replace with your actual image path
+              width={150}
+              height={150}
+              layout="responsive"
+              alt="A placeholder for a podcast chat image" // Provide a meaningful description
+            />
+          </div> 
+        </div> */}

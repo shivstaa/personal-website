@@ -12,10 +12,10 @@ import MenuItem from "@mui/material/MenuItem";
 import Link from "next/link";
 
 const pages = {
-  "About Me": "#intro",
+  // "About Me": "#intro",
   Experience: "#experience",
   Projects: "#projects",
-  Photography: "/photos",
+  Travel: "/travel",
 };
 
 function Navbar() {
@@ -31,6 +31,7 @@ function Navbar() {
 
   return (
     <AppBar position="static" sx={{ bgcolor: "transparent" }}>
+      {/* <AppBar position="sticky" sx={{bgcolor: "black"}} */}
       <Container maxWidth={false}>
         <Toolbar disableGutters>
           <Typography
@@ -130,7 +131,7 @@ function Navbar() {
                   "&:hover": { backgroundColor: "rgba(255, 255, 255, 0.25)" },
                 }}
               >
-                <Link href={pageUrl} passHref>
+                <Link href={pageUrl} className="scroll-smooth" passHref>
                   {pageName}
                 </Link>
               </Button>
