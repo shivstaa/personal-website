@@ -10,9 +10,9 @@
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/646/269/datas/gallery.jpg"
   ],
   "languages": ["JavaScript"],
-  "frameworks": ["siReact", "sinode", "Tailwind"],
+  "frameworks": ["React", "Node", "Tailwind"],
   "libraries": [""],
-  "tools": ["github", "figma", "firebase"],
+  "tools": ["Github", "Figma", "Firebase"],
   "github": "https://github.com/shivstaa/AutoRecruit",
   "devpost": "https://devpost.com/software/autorecruit"
 }

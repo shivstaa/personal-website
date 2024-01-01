@@ -13,6 +13,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import IconComponent from "./icons";
 import Link from "next/link";
 import YouTube from "react-youtube";
+import { ChipComponent } from "./pill";
 
 export const ProjectCard = ({ data }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -127,7 +128,11 @@ export const ProjectCard = ({ data }) => {
                   Languages
                 </Typography>
                 {/* switch to tags (pills) */}
-                <IconComponent findIcons={data.languages} />
+                <ChipComponent 
+                items={data.languages}     
+                colorScheme={{ background: 'primary'}} 
+                />
+                {/* <IconComponent findIcons={data.languages} /> */}
                 <Typography
                   variant="h5"
                   gutterBottom
@@ -136,10 +141,14 @@ export const ProjectCard = ({ data }) => {
                   Frameworks
                 </Typography>
                 {/* switch to tags (pills) */}
-                <IconComponent
+                <ChipComponent 
+                  items={data.frameworks}
+                    colorScheme={{ background: 'secondary'}} 
+                />
+                {/* <IconComponent
                   findIcons={data.frameworks}
                   sx={{ justifyContent: "center" }}
-                />
+                /> */}
               </Grid>
             )}
 

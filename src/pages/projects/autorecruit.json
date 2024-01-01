@@ -7,10 +7,10 @@
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/636/367/datas/gallery.jpg",
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/636/370/datas/gallery.jpg"
   ],
-  "languages": ["JavaScript", "Typescript", "sipython"],
-  "frameworks": ["siReact", "django", "Tailwind"],
-  "libraries": ["redux"],
-  "tools": ["github", "docker"],
+  "languages": ["JavaScript", "Typescript", "Python"],
+  "frameworks": ["React", "Django", "Tailwind"],
+  "libraries": ["Redux"],
+  "tools": ["Github", "Docker"],
   "github": "https://github.com/shivstaa/EmergenSync",
   "devpost": "https://devpost.com/software/emergensync"
 }

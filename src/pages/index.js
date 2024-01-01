@@ -184,17 +184,6 @@ export default function Home() {
               openNewTab={true}
             />
           </div>
-
-          {/* <div className="flex justify-center items-center mt-4 md:mt-0"> */}
-          {/* <div className="flex justify-center items-center mt-4 md:mt-0 w-full">
-            <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" // Replace with your actual image path
-              width={150}
-              height={150}
-              layout="responsive"
-              alt="A placeholder for a podcast chat image" // Provide a meaningful description
-            />
-          </div> */}
         </div>
       </section>
 
