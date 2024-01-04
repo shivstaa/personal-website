@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Navbar from "./components/navbar";
-import { ProjectCard } from "./components/card";
-import { TimelineElement } from "./components/timeline";
+import ProjectCard from "./components/card";
+import TimelineElement from "./components/timeline";
 import autorecruit from "./projects/autorecruit.json";
 import emergensync from "./projects/emergensync.json";
 import recyclify from "./projects/recyclify.json";

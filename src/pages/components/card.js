@@ -13,7 +13,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 // import IconComponent from "./icons";
 import Link from "next/link";
 import YouTube from "react-youtube";
-import { ChipComponent } from "./pill";
+import ChipComponent from "./pill";
 
 const ProjectCard = ({ data }) => {
   const [currentImage, setCurrentImage] = useState(0);
