@@ -9,10 +9,8 @@ import recyclify from "./projects/recyclify.json";
 import castfindr from "./projects/castfindr.json";
 import legaleaze from "./projects/legaleaze.json";
 import scheduler from "./projects/scheduler.json";
-import experiences from "./experience/experience.json"
+import experiences from "./experience/experience.json";
 import SocialButtonsContainer from "react-social-media-buttons";
-//import { Inter } from "next/font/google";
-// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const projects = [
@@ -34,7 +32,6 @@ export default function Home() {
           preserveAspectRatio="none"
           viewBox="0 0 1500 1250"
         >
-          {/* <svg style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, zIndex: -1 }} preserveAspectRatio="none" viewBox="0 0 1500 1300"> */}
           <g transform="translate(750,464) scale(1,1) translate(-750,-464)">
             <linearGradient
               id="lg-0.3112358184541668"
@@ -133,13 +130,13 @@ export default function Home() {
         </svg>
         <div className="text-white p-4 md:p-8 lg:p-12 flex flex-col items-center justify-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 lg:mb-6 text-center">
-            Hi, My Name is Shiv 👋
+            Hi, My Name is Shiv Shah 👋
           </h1>
 
           <p className="text-base md:text-lg lg:text-2xl mt-4 lg:mt-6 lg:pr-4 text-center max-w-[90%] md:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%]">
             I am a student at Arizona State University studying Computer
             Science! Over the past 3 years, I have completed software
-            engineering internships and projects focused on full stack
+            engineering internships and projects primarily focused on full stack
             development. See my previous experiences below!
           </p>
 
@@ -189,11 +186,9 @@ export default function Home() {
 
       <section id="experience" className="">
         <h1 className="text-4xl mb-5 ml-10">Experience</h1>
-        {
-          experiences.map((data, index) => (
-            <TimelineElement key={index} data={data}/>
-          ))
-        }
+        {experiences.map((data, index) => (
+          <TimelineElement key={index} data={data} />
+        ))}
       </section>
 
       <section id="projects">
@@ -202,20 +197,6 @@ export default function Home() {
           <ProjectCard key={index} data={project} />
         ))}
       </section>
-
-      <section id="footer">{/* Add return to top button */}</section>
     </main>
   );
 }
-
-/*
-To-do:
-
-
-  - create experience section -> timeline object? (go for horizontal items)
-
-  - write project descriptions for projects
-
-  - consider: change navbar links to lazy load?
-
-*/

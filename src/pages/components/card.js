@@ -10,7 +10,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { GoLinkExternal } from "react-icons/go";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import IconComponent from "./icons";
+// import IconComponent from "./icons";
 import Link from "next/link";
 import YouTube from "react-youtube";
 import { ChipComponent } from "./pill";
@@ -120,38 +120,17 @@ export const ProjectCard = ({ data }) => {
                 >
                   {data.title}
                 </Typography>
-                {/* <Typography
-                  variant="h5"
-                  gutterBottom
-                  sx={{ textAlign: "center", my: 2 }}
-                >
-                  Technologies
-                </Typography> */}
-                {/* switch to tags (pills) */}
-                <ChipComponent 
-                items={data.languages}     
-                colorScheme={{ background: 'primary'}} 
+                <ChipComponent
+                  items={data.languages}
+                  colorScheme={{ background: "primary" }}
                 />
-                {/* <IconComponent findIcons={data.languages} /> */}
-                {/* <Typography
-                  variant="h5"
-                  gutterBottom
-                  sx={{ textAlign: "center", my: 2 }}
-                >
-                  Frameworks
-                </Typography> */}
-                {/* switch to tags (pills) */}
-                <ChipComponent 
+                <ChipComponent
                   items={data.frameworks}
-                    colorScheme={{ background: 'secondary'}} 
+                  colorScheme={{ background: "secondary" }}
                 />
-                {/* <IconComponent
-                  findIcons={data.frameworks}
-                  sx={{ justifyContent: "center" }}
-                /> */}
                 <ChipComponent
                   items={data.tools}
-                  colorScheme={{background: 'error'}}
+                  colorScheme={{ background: "error" }}
                 />
               </Grid>
             )}

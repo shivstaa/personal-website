@@ -5,7 +5,7 @@
   "frameworks": ["React", "Django", "Tensorflow"],
   "videoLink": "JM2Am9lLWeo",
   "libraries": [""],
-  "tools": ["AI/ML", "Computer Vision","Firebase"],
+  "tools": ["AI/ML", "Computer Vision", "Firebase"],
   "github": "https://github.com/shivstaa/garbage-collection-IOT",
   "devpost": "https://devpost.com/software/magnify-trash"
 }
