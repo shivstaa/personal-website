@@ -1,11 +1,11 @@
 {
   "title": "Recyclify",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "Recyclify is an IOT intiative that removed decision making when throwing out waste. We utilized computer vision to be able to detect whether the waste is trash or recyclable and automate the filtering by using bluetooth serialization to open the appropriate bin. We also created a mobile application that tracks the total trash/recycling along with other metrics to track the environmental footprint of communities.",
   "languages": ["JavaScript", "Python", "C++"],
-  "frameworks": ["React", "Django"],
+  "frameworks": ["React", "Django", "Tensorflow"],
   "videoLink": "JM2Am9lLWeo",
   "libraries": [""],
-  "tools": ["Github", "Expo", "Firebase"],
+  "tools": ["AI/ML", "Computer Vision","Firebase"],
   "github": "https://github.com/shivstaa/garbage-collection-IOT",
   "devpost": "https://devpost.com/software/magnify-trash"
 }

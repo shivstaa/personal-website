@@ -1,16 +1,16 @@
 {
   "title": "AutoRecruit",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "Developed at HackHarvard 2023, AutoRecruit is a web platform for creating autonomous behavioral interviews by developing a real-time interactive AI assistant to question, respond, and assess interviewees on the platform.",
   "images": [
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/633/200/datas/gallery.jpg",
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/637/171/datas/gallery.jpg",
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/636/367/datas/gallery.jpg",
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/636/370/datas/gallery.jpg"
   ],
-  "languages": ["JavaScript", "Typescript", "Python"],
-  "frameworks": ["React", "Django", "Tailwind"],
+  "languages": ["JavaScript", "Python"],
+  "frameworks": ["React", "Django", "Tailwind", "OpenAI"],
   "libraries": ["Redux"],
-  "tools": ["Github", "Docker"],
-  "github": "https://github.com/shivstaa/EmergenSync",
-  "devpost": "https://devpost.com/software/emergensync"
+  "tools": ["AI/ML", "Figma", "Firebase", "Redis"],
+  "github": "https://github.com/shivstaa/AutoRecruit",
+  "devpost": "https://devpost.com/software/autorecruit"
 }

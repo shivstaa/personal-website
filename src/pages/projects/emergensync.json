@@ -1,6 +1,6 @@
 {
   "title": "EmergenSync",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "Developed at CalHacks 2023, EmergenSync is a two-way platform for hospital management to be able to receive emergency room requests by paramedics assisting patients by utilizing Firebase for real-time information.",
   "images": [
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/645/486/datas/gallery.jpg",
     "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/645/506/datas/gallery.jpg",
@@ -12,7 +12,7 @@
   "languages": ["JavaScript"],
   "frameworks": ["React", "Node", "Tailwind"],
   "libraries": [""],
-  "tools": ["Github", "Figma", "Firebase"],
-  "github": "https://github.com/shivstaa/AutoRecruit",
-  "devpost": "https://devpost.com/software/autorecruit"
+  "tools": ["AWS Lambda", "Firebase", "OAuth"],
+  "github": "https://github.com/shivstaa/EmergenSync",
+  "devpost": "https://devpost.com/software/emergensync"
 }

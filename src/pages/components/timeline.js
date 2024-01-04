@@ -4,8 +4,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Work } from "@mui/icons-material";
-import { School } from "@mui/icons-material";
-// import { Star } from "@mui/icons-material";
+import { School } from "@mui/icons-material"; 
+import { Star } from "@mui/icons-material";
 
 const styles = {
     work: {
@@ -60,9 +60,5 @@ const styles = {
   
 
 
-//       </VerticalTimelineElement>
-//       {/* <VerticalTimelineElement
-//     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-//     icon={<Star />}
-//   /> */}
-//     </VerticalTimeline>
+
+    

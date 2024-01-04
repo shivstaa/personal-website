@@ -6,6 +6,9 @@
       "title": "Mastercard",
       "subtitle": "Software Engineer Intern",
       "location": "New York, NY",
+      "languages": ["JavaScript"],
+      "frameworks": ["React", "Node", "Tailwind"],
+      "libraries": [""],
       "description": "Frontend developer for the Click to Pay service; worked in JavaScript (VueJS, TailwindCSS, TypeScript, & NextJS)"
     },
     {
@@ -14,6 +17,9 @@
         "title": "Mastercard",
         "subtitle": "Software Engineer Intern",
         "location": "New York, NY",
+        "languages": ["JavaScript"],
+        "frameworks": ["React", "Node", "Tailwind"],
+        "libraries": [""],
         "description": "DevOps developer on the Performance Automation team; worked in Java (Spring Boot) & Jenkins Cloud"
       },
     {
@@ -22,6 +28,9 @@
       "title": "Arizona State University",
       "subtitle": "Bachelor of Science in Computer Science",
       "location": "Tempe, AZ",
+      "languages": ["JavaScript"],
+      "frameworks": ["React", "Node", "Tailwind"],
+      "libraries": [""],
       "description": ""
     }
   ]

@@ -120,26 +120,26 @@ export const ProjectCard = ({ data }) => {
                 >
                   {data.title}
                 </Typography>
-                <Typography
+                {/* <Typography
                   variant="h5"
                   gutterBottom
                   sx={{ textAlign: "center", my: 2 }}
                 >
-                  Languages
-                </Typography>
+                  Technologies
+                </Typography> */}
                 {/* switch to tags (pills) */}
                 <ChipComponent 
                 items={data.languages}     
                 colorScheme={{ background: 'primary'}} 
                 />
                 {/* <IconComponent findIcons={data.languages} /> */}
-                <Typography
+                {/* <Typography
                   variant="h5"
                   gutterBottom
                   sx={{ textAlign: "center", my: 2 }}
                 >
                   Frameworks
-                </Typography>
+                </Typography> */}
                 {/* switch to tags (pills) */}
                 <ChipComponent 
                   items={data.frameworks}
@@ -149,6 +149,10 @@ export const ProjectCard = ({ data }) => {
                   findIcons={data.frameworks}
                   sx={{ justifyContent: "center" }}
                 /> */}
+                <ChipComponent
+                  items={data.tools}
+                  colorScheme={{background: 'error'}}
+                />
               </Grid>
             )}
 

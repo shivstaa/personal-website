@@ -1,10 +1,10 @@
 {
   "title": "Discord Scheduler Bot",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "The Discord Scheduler Bot allows users to perform CRUD operations for user events, both private and server-wide. All data is stored in a Postgres database via Google Cloud which allows for real-time commands such as event notification signup and removal, and event creation, modification, and deletion. The bot is also able to utilize timezones to be able to ping users at the appropriate time through the Google Cloud notifications extension and Python time-date libraries.",
   "videoLink": "C9IDWS9Azs4",
   "languages": ["Python", "PostgreSQL"],
-  "frameworks": ["Flask"],
+  "frameworks": ["Flask", "Discord.py"],
   "libraries": [""],
-  "tools": ["Github", "Google Cloud"],
+  "tools": ["Google Cloud"],
   "github": "https://github.com/shivstaa/discord-scheduler-bot"
 }

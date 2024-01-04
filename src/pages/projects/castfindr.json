@@ -1,11 +1,11 @@
 {
   "title": "Castfindr",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "Castfindr is a web platform that allows users to make any query regarding podcasts on the Spotify platform. Utilized Named Entity Recognition for extracting tokens from user queries and utilizing the OpenAI and Spotify search API to return the results.",
   "images": ["../../../podcast_home.png"],
   "languages": ["JavaScript", "TypeScript", "Python"],
   "frameworks": ["Next", "Flask"],
   "libraries": [""],
-  "tools": ["", ""],
+  "tools": ["AI/ML", "Modal", "Firebase"],
   "github": "https://github.com/shivstaa/spotify-podcast-finder",
   "devpost": ""
 }

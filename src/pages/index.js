@@ -197,7 +197,7 @@ export default function Home() {
       </section>
 
       <section id="projects">
-        <h1 className="text-4xl mb-5 ml-10">Projects</h1>
+        <h1 className="text-4xl mb-5 mt-8 ml-10">Projects</h1>
         {projects.map((project, index) => (
           <ProjectCard key={index} data={project} />
         ))}

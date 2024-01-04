@@ -1,11 +1,11 @@
 {
   "title": "LegalEaze",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "description": "LegalEaze a web platform that allows users to input legal terms and documents and define or evaluate the content for multiple locales by utilizing spaCy for Named Entity Recogniton (NER) in classifying legal jargon and the OpenAI API to produce summaries of the content.",
   "videoLink": "LPg2uMA5wzo",
   "languages": ["JavaScript", "Python"],
-  "frameworks": ["React", "Flask"],
+  "frameworks": ["React", "Flask", "spaCy", "OpenAI"],
   "libraries": [""],
-  "tools": ["", ""],
+  "tools": ["AI/ML", "NLP"],
   "github": "https://github.com/shivstaa/legal-eaze",
   "devpost": "https://devpost.com/software/legal-eaze"
 }
