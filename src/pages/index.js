@@ -3,13 +3,13 @@ import React from "react";
 import Navbar from "./components/navbar";
 import ProjectCard from "./components/card";
 import TimelineElement from "./components/timeline";
-import autorecruit from "../projects/autorecruit.json";
-import emergensync from "../projects/emergensync.json";
-import recyclify from "../projects/recyclify.json";
-import castfindr from "../projects/castfindr.json";
-import legaleaze from "../projects/legaleaze.json";
-import scheduler from "../projects/scheduler.json";
-import experiences from "../experience/experience.json";
+import autorecruit from "../../public/projects/autorecruit.json";
+import emergensync from "../../public/projects/emergensync.json";
+import recyclify from "../../public/projects/recyclify.json";
+import castfindr from "../../public/projects/castfindr.json";
+import legaleaze from "../../public/projects/legaleaze.json";
+import scheduler from "../../public/projects/scheduler.json";
+import experiences from "../../public/experience/experience.json";
 import SocialButtonsContainer from "react-social-media-buttons";
 
 export default function Home() {
