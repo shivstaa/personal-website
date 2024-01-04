@@ -83,7 +83,7 @@ function Navbar() {
             >
               {Object.entries(pages).map(([pageName, pageUrl]) => (
                 <MenuItem key={pageName} onClick={handleCloseNavMenu}>
-                  <Link href={pageUrl} passHref>
+                  <Link href={pageUrl ?? ''} passHref>
                     <Typography textAlign="center">{pageName}</Typography>
                   </Link>
                 </MenuItem>
@@ -131,7 +131,7 @@ function Navbar() {
                   "&:hover": { backgroundColor: "rgba(255, 255, 255, 0.25)" },
                 }}
               >
-                <Link href={pageUrl} className="scroll-smooth" passHref>
+                <Link href={pageUrl ?? ''} className="scroll-smooth" passHref>
                   {pageName}
                 </Link>
               </Button>

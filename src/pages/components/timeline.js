@@ -6,6 +6,19 @@ import "react-vertical-timeline-component/style.min.css";
 import { Work } from "@mui/icons-material";
 import { School } from "@mui/icons-material";
 
+const defaultStyles = {
+  contentStyle: {
+    background: "rgb(33, 150, 243)",
+    color: "#fff",
+    boxShadow: "none",
+  },
+  arrowStyle: "7px solid rgb(33, 150, 243)",
+  iconStyle: {
+    background: "rgb(33, 150, 243)",
+    color: "#fff",
+  }
+}
+
 const styles = {
   work: {
     contentStyle: {
@@ -34,7 +47,7 @@ const styles = {
 };
 
  const TimelineElement = ({ data }) => {
-  const typeStyles = styles[data?.type];
+  const typeStyles = styles[data?.type] || defaultStyles;
   const Icon = data?.type === "work" ? Work : School;
 
   return (

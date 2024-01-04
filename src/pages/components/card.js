@@ -152,7 +152,7 @@ const ProjectCard = ({ data }) => {
                 sx={{ display: "flex", justifyContent: "flex-start", mt: 2 }}
               >
                 <Link
-                  href={data?.github}
+                  href={data?.github ?? ''}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center hover:underline"
@@ -161,7 +161,7 @@ const ProjectCard = ({ data }) => {
                 </Link>
                 {data?.devpost && (
                   <Link
-                    href={data?.devpost}
+                    href={data?.devpost ?? ''}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center ml-4 hover:underline"
