@@ -33,7 +33,7 @@ const styles = {
   },
 };
 
-export const TimelineElement = ({ data }) => {
+ const TimelineElement = ({ data }) => {
   const typeStyles = styles[data.type];
   const Icon = data.type === "work" ? Work : School;
 
@@ -59,3 +59,5 @@ export const TimelineElement = ({ data }) => {
     </VerticalTimeline>
   );
 };
+
+export default TimelineElement;

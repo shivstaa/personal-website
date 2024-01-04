@@ -15,7 +15,7 @@ import Link from "next/link";
 import YouTube from "react-youtube";
 import { ChipComponent } from "./pill";
 
-export const ProjectCard = ({ data }) => {
+const ProjectCard = ({ data }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
@@ -229,3 +229,5 @@ export const ProjectCard = ({ data }) => {
     </Box>
   );
 };
+
+export default ProjectCard;
