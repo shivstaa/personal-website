@@ -21,12 +21,12 @@ const ProjectCard = ({ data }) => {
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const toNextImage = () => {
-    setCurrentImage((prev) => (prev + 1) % data.images.length);
+    setCurrentImage((prev) => (prev + 1) % data?.images.length);
   };
 
   const toPreviousImage = () => {
     setCurrentImage(
-      (prev) => (prev - 1 + data.images.length) % data.images.length,
+      (prev) => (prev - 1 + data?.images.length) % data?.images.length,
     );
   };
 
@@ -39,7 +39,7 @@ const ProjectCard = ({ data }) => {
       },
     };
 
-    return <YouTube videoId={data.videoLink} opts={opts} />;
+    return <YouTube videoId={data?.videoLink} opts={opts} />;
   };
 
   return (
@@ -65,13 +65,13 @@ const ProjectCard = ({ data }) => {
                 gutterBottom
                 sx={{ textAlign: "left", paddingTop: 2 }}
               >
-                {data.title}
+                {data?.title}
               </Typography>
-              {data.images && data.images.length > 0 ? (
+              {data?.images && data?.images.length > 0 ? (
                 <Box sx={{ position: "relative", width: "100%", mt: 2 }}>
                   <CardMedia
                     component="img"
-                    image={data.images[currentImage]}
+                    image={data?.images[currentImage]}
                     alt="Project image"
                     sx={{
                       height: 200,
@@ -104,7 +104,7 @@ const ProjectCard = ({ data }) => {
                     <ArrowForwardIosIcon />
                   </IconButton>
                 </Box>
-              ) : data.videoLink ? (
+              ) : data?.videoLink ? (
                 <Box sx={{ width: "100%", mt: 2 }}>{renderVideo()}</Box>
               ) : null}
             </>
@@ -118,18 +118,18 @@ const ProjectCard = ({ data }) => {
                   gutterBottom
                   sx={{ textAlign: "left" }}
                 >
-                  {data.title}
+                  {data?.title}
                 </Typography>
                 <ChipComponent
-                  items={data.languages}
+                  items={data?.languages || []}
                   colorScheme={{ background: "primary" }}
                 />
                 <ChipComponent
-                  items={data.frameworks}
+                  items={data?.frameworks || []}
                   colorScheme={{ background: "secondary" }}
                 />
                 <ChipComponent
-                  items={data.tools}
+                  items={data?.tools || []}
                   colorScheme={{ background: "error" }}
                 />
               </Grid>
@@ -145,23 +145,23 @@ const ProjectCard = ({ data }) => {
                   mt: { xs: 2, md: 0 },
                 }}
               >
-                {data.description}
+                {data?.description}
               </Typography>
 
               <Box
                 sx={{ display: "flex", justifyContent: "flex-start", mt: 2 }}
               >
                 <Link
-                  href={data.github}
+                  href={data?.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center hover:underline"
                 >
                   GitHub <GoLinkExternal className="ml-1" />
                 </Link>
-                {data.devpost && (
+                {data?.devpost && (
                   <Link
-                    href={data.devpost}
+                    href={data?.devpost}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center ml-4 hover:underline"
@@ -175,13 +175,13 @@ const ProjectCard = ({ data }) => {
 
           {!isMobile && (
             <>
-              {data.images && data.images.length > 0 ? (
+              {data?.images && data?.images.length > 0 ? (
                 <Box
                   sx={{ position: "relative", width: "80%", mt: 4, mx: "auto" }}
                 >
                   <CardMedia
                     component="img"
-                    image={data.images[currentImage]}
+                    image={data?.images[currentImage]}
                     alt="Project image"
                     sx={{
                       width: "100%",
@@ -215,7 +215,7 @@ const ProjectCard = ({ data }) => {
                     <ArrowForwardIosIcon />
                   </IconButton>
                 </Box>
-              ) : data.videoLink ? (
+              ) : data?.videoLink ? (
                 <Box
                   sx={{ position: "relative", width: "80%", mt: 4, mx: "auto" }}
                 >

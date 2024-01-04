@@ -1,9 +1,7 @@
 import * as SiIcons from "react-icons/si";
 
-// const techStack = ["Docker", "Typescript", "Tailwind", "Nextdot", "JavaScript", "React", "redux"];
-
 const getIcons = (iconList) => {
-  const icons = iconList.map((tech) => {
+  const icons = iconList?.map((tech) => {
     const iconName = Object.keys(SiIcons).find((name) =>
       name.toLowerCase().includes(tech.toLowerCase()),
     );
@@ -15,7 +13,7 @@ const getIcons = (iconList) => {
 };
 
 const IconComponent = (props) => {
-  const icons = getIcons(props.findIcons);
+  const icons = getIcons(props?.findIcons);
   // display icons
   return (
     <div className="flex justify-center items-center space-x-2">

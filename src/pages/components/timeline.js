@@ -34,27 +34,27 @@ const styles = {
 };
 
  const TimelineElement = ({ data }) => {
-  const typeStyles = styles[data.type];
-  const Icon = data.type === "work" ? Work : School;
+  const typeStyles = styles[data?.type];
+  const Icon = data?.type === "work" ? Work : School;
 
   return (
     <VerticalTimeline layout="1-column-left">
       <VerticalTimelineElement
-        className={`vertical-timeline-element--${data.type}`}
-        date={data.date}
+        className={`vertical-timeline-element--${data?.type}`}
+        date={data?.date}
         contentStyle={typeStyles.contentStyle}
         contentArrowStyle={{ borderRight: typeStyles.arrowStyle }}
         iconStyle={typeStyles.iconStyle}
         icon={<Icon />}
       >
         <h1 className="text-white text-xl antialiased vertical-timeline-element-title font-semibold">
-          {data.title}
+          {data?.title}
         </h1>
         <h3 className="vertical-timeline-element-subtitle">
-          {data.subtitle}
-          <span className=""> • {data.location}</span>
+          {data?.subtitle}
+          <span className=""> • {data?.location}</span>
         </h3>
-        <p className="">{data.description}</p>
+        <p className="">{data?.description}</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
