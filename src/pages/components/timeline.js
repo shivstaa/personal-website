@@ -16,8 +16,8 @@ const defaultStyles = {
   iconStyle: {
     background: "rgb(33, 150, 243)",
     color: "#fff",
-  }
-}
+  },
+};
 
 const styles = {
   work: {
@@ -46,12 +46,12 @@ const styles = {
   },
 };
 
- const TimelineElement = ({ data }) => {
+const TimelineElement = ({ data }) => {
   const typeStyles = styles[data?.type] || defaultStyles;
   const Icon = data?.type === "work" ? Work : School;
 
   return (
-    <VerticalTimeline layout="1-column-left">
+    <VerticalTimeline layout="1-column-left" animate={false}>
       <VerticalTimelineElement
         className={`vertical-timeline-element--${data?.type}`}
         date={data?.date}

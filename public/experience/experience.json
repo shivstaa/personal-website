@@ -15,10 +15,10 @@
     "date": "June 2022 - Aug. 2022",
     "title": "Mastercard",
     "subtitle": "Software Engineer Intern",
-    "location": "New York, NY",
-    "languages": ["JavaScript"],
-    "frameworks": ["React", "Node", "Tailwind"],
-    "libraries": [""],
+    "location": "O'Fallon, MO",
+    "languages": ["Java"],
+    "frameworks": ["Spring Boot", "", ""],
+    "libraries": ["Jenkins"],
     "description": "DevOps developer on the Performance Automation team; worked in Java (Spring Boot) & Jenkins Cloud"
   },
   {
