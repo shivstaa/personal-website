@@ -12,10 +12,9 @@ import MenuItem from "@mui/material/MenuItem";
 import Link from "next/link";
 
 const pages = {
-  // "About Me": "#intro",
   Experience: "#experience",
   Projects: "#projects",
-  Travel: "/travel",
+  // Travel: "/travel",
 };
 
 function Navbar() {

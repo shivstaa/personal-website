@@ -141,11 +141,11 @@ export default function Home() {
           </p>
 
           <div className="flex flex-row flex-wrap justify-center items-center mt-6 lg:mt-8 w-full">
-            <a href="/about-me">
+            {/* <a href="/about-me">
               <button className="bg-purple-700 text-white text-xl font-semibold py-3 px-6 rounded hover:bg-purple-800 transition duration-300 tracking-widest w-full md:w-auto">
                 ABOUT ME
               </button>
-            </a>
+            </a> */}
             <SocialButtonsContainer
               links={["mailto:shivshahla@gmail.com"]}
               buttonStyle={{
