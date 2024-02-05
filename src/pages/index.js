@@ -14,12 +14,12 @@ import SocialButtonsContainer from "react-social-media-buttons";
 
 export default function Home() {
   const projects = [
-    autorecruit,
-    emergensync,
     recyclify,
     castfindr,
-    legaleaze,
     scheduler,
+    autorecruit,
+    emergensync,
+    legaleaze,
   ];
 
   return (

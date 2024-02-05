@@ -1,5 +1,5 @@
 {
-  "title": "Castfindr",
+  "title": "Podcast Recommendation App",
   "description": "Castfindr is a web platform that allows users to make any query regarding podcasts on the Spotify platform. Utilized Named Entity Recognition for extracting tokens from user queries and utilizing the OpenAI and Spotify search API to return the results.",
   "images": ["../../../podcast_home.png"],
   "languages": ["JavaScript", "TypeScript", "Python"],

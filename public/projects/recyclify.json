@@ -1,6 +1,6 @@
 {
   "title": "Recyclify",
-  "description": "Recyclify is an IOT intiative that removed decision making when throwing out waste. We utilized computer vision to be able to detect whether the waste is trash or recyclable and automate the filtering by using bluetooth serialization to open the appropriate bin. We also created a mobile application that tracks the total trash/recycling along with other metrics to track the environmental footprint of communities.",
+  "description": "Recyclify is an IOT intiative that removes decision making when throwing out waste. We utilized computer vision to be able to detect whether the waste is trash or recyclable and automate the filtering by using bluetooth serialization to open the appropriate bins. We also created a mobile application that tracks the total trash/recycling along with other metrics to track the environmental footprint of communities.",
   "languages": ["JavaScript", "Python", "C++"],
   "frameworks": ["React", "Django", "Tensorflow"],
   "videoLink": "JM2Am9lLWeo",
