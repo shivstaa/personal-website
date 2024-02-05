@@ -1,14 +1,25 @@
 [
   {
     "type": "work",
+    "date": "January 2024 - Current",
+    "title": "Ames Investment Systems",
+    "subtitle": "Full Stack Engineer Intern",
+    "location": "Remote",
+    "languages": ["Python, JavaScript"],
+    "frameworks": ["React", "Flask"],
+    "libraries": [""],
+    "description": "Full stack developer at a quantitative trading startup working on the platform infrastructure and creating client websites; worked in JavaScript (React, GraphQL) and Python (Flask)."
+  },
+  {
+    "type": "work",
     "date": "June 2023 - Aug. 2023",
     "title": "Mastercard",
-    "subtitle": "Software Engineer Intern",
+    "subtitle": "Full Stack Engineer Intern",
     "location": "New York, NY",
     "languages": ["JavaScript"],
     "frameworks": ["React", "Node", "Tailwind"],
     "libraries": [""],
-    "description": "Frontend developer for the Click to Pay service; worked in JavaScript (VueJS, TailwindCSS, TypeScript, & NextJS)"
+    "description": "Full stack developer for the Mastercard Click to Pay service, working on features, bug fixes, and platform maintenance; worked in JavaScript (VueJS, TailwindCSS, TypeScript, & NextJS)."
   },
   {
     "type": "work",
@@ -19,7 +30,7 @@
     "languages": ["Java"],
     "frameworks": ["Spring Boot", "", ""],
     "libraries": ["Jenkins"],
-    "description": "DevOps developer on the Performance Automation team; worked in Java (Spring Boot) & Jenkins Cloud"
+    "description": "DevOps developer on the Performance Automation team, working on creating pipelines to automate performance tests on Java Spring Boot and Scala scripts; Worked in Java (Spring Boot), Scala, YAML, and Jenkins Cloud, "
   },
   {
     "type": "education",
@@ -30,6 +41,6 @@
     "languages": ["JavaScript"],
     "frameworks": ["React", "Node", "Tailwind"],
     "libraries": [""],
-    "description": ""
+    "description": "GPA: 4.00 out of 4.00"
   }
 ]
