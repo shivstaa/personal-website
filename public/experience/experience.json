@@ -12,6 +12,16 @@
   },
   {
     "type": "work",
+    "date": "August 2023 - December 2023",
+    "title": "Polideck Technologies",
+    "subtitle": "Full Stack Engineer Intern",
+    "location": "Remote",
+    "languages": ["JavaScript", "Python"],
+    "frameworks": ["React", "Django"],
+    "description": "Full stack developer working on the login security platform by building blockchain-based resilient communication utilizing web3 libraries; worked in JavaScript (React) and Python (Django)."
+  },
+  {
+    "type": "work",
     "date": "June 2023 - Aug. 2023",
     "title": "Mastercard",
     "subtitle": "Full Stack Engineer Intern",
